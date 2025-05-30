@@ -1,0 +1,799 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+  overflow-x: hidden ;
+}
+#nav {
+  background-color: #fd9c49 !important;
+}
+
+.logo {
+  margin-left: 100px;
+}
+
+#main {
+  text-decoration: none;
+  border-bottom: 3px solid black;
+}
+
+.others {
+  text-decoration: none;
+  position: relative;
+}
+
+.others::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease;
+}
+
+.others:hover::after {
+  width: 100%;
+}
+.offcanvas {
+  background-color: #fd9c49 !important;
+  color: white !important;
+  font-size: 30px;
+}
+
+  .pay-text {
+    font-size:10em;
+    margin: 0; 
+    line-height: 1; 
+    font-weight: 1000;
+   font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  }
+  .head-1{
+    position: relative;
+    padding-left: 10%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+  }
+  .Digital{
+    font-weight: 800;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+
+  .right{
+    
+  transform: translate(50%, -80%);
+}
+
+.img-group{
+   transform: translate(32%, 5%);
+}
+
+
+  .head-text{
+    position: relative;
+    transform: translate(-10%, -300%) !important;
+  }
+
+  .head-text::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px; 
+    width: 0;
+    background-color: currentColor; 
+    transition: width 0.3s ease;
+  }
+
+  
+
+.globe{
+  
+     position: relative;
+   transform: translate(80%, -500%) !important; 
+}
+
+.smart{
+  position: absolute;
+   transform: translate(-100%, -130%) !important;
+
+}
+
+#about{
+  padding-top: 80px;
+}
+
+.higlight{
+  color: gold;
+}
+
+.chat-right{
+  position: absolute;
+  right: -90px; 
+  top: 30px;
+  font-size: 10.5em;
+
+}
+
+.about-title{
+  font-family: 'plus-jakarta-sans', sans-serif;
+  font-weight: 1000;
+  font-size: 7em;
+}
+.us{
+  color: #FD9C49;
+}
+   
+
+  .button-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* 2 equal columns */
+      gap: 1rem;
+      max-width: 500px;
+      margin: 2rem auto 0;
+    }
+
+    .value-button {
+  border: 2px solid red;
+  color: white;
+  border-radius: 50px;
+  padding: 15px 30px;
+  background: transparent;
+  font-weight: 500;
+  width: 100%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.value-button:hover {
+    background-color: yellow !important;
+    color: red !important;
+    border-color: lime !important;
+  }
+    .core-text{
+      font-size: 2.5em;
+      font-weight: 700;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      color: white;
+      margin-left: 60px;
+    }
+
+    .core-text:hover{
+      color: #FD9C49;
+    }
+
+    .chart{
+      margin-left: 30px;
+      margin-top: 60px !important;
+    }
+
+    .orng{
+      color: #FD9C49;
+    }
+    .building{
+      font-size: 30px;
+    }
+
+    .feature-card {
+        background: linear-gradient(135deg, #ff7e29, #ff914d); 
+      border-radius: 20px;
+      border: 5px solid white !important;
+      padding: 25px;
+      color: white;
+      height: 100%;
+    }
+
+    .feature-heading {
+      font-size: 5rem !important;
+      font-weight: 800;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .feature-icon {
+      font-size: 2.5rem;
+    
+    }
+    #icn{
+      fill: black !important;
+      height: 70px;
+
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 31px !important;
+    }
+
+    .feature-card {
+  background-color: rgba(26, 15, 10, 0.65); /* Default transparent background */
+  border-radius: 25px;
+  padding: 25px;
+  color: white;
+  height: 100%;
+  transition: background 0.4s ease; /* Smooth transition */
+}
+
+.feature-card:hover {
+  background: linear-gradient(136deg, #ff7300, #ff9966);
+
+  color: white;
+}
+
+.card{
+  height: 100% !important;
+}
+
+.cardino{
+  background-color: black;
+}
+
+.carousel-wrapper {
+      overflow: hidden;
+      width: 100%;
+    }
+
+    .image-track {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      gap: 1rem;
+    }
+
+    .carousel-img-container {
+      flex: 0 0 calc(33.3333% - 0.67rem); /* 3 items per slide */
+      display: flex;
+      justify-content: center;
+    }
+
+    .product-card {
+      border-radius: 23px;
+      padding: 1rem;
+      background-color: white;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+      height: 500px;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+      object-fit: contain;
+    }
+
+    .product-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .product-description {
+      font-size: 0.95rem;
+      color: #333;
+      margin-bottom: 1rem;
+    }
+
+    .price-cart {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .price {
+      font-size: 1.4rem;
+      font-weight: bold;
+      color: black;
+    }
+
+    .add-to-cart-btn {
+      background-color: #fcb15c;
+      border: none;
+      padding: 0.5rem 1.2rem;
+      border-radius: 999px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .add-to-cart-btn:hover {
+      background-color: #e89e3f;
+    }
+    .store{
+      font-size: 90px;
+      font-weight: bolder;
+      padding-top: 20px;
+    }
+
+    .culture{
+       font-size: 90px;
+      font-weight: bolder;
+      padding-top: 20px;
+    }
+
+    .more {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #FD9C49;
+  border-radius: 20px;
+  padding: 0.5rem 1.2rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.more:hover {
+  background-color: #FD9C49;
+  color: black;
+}
+
+.prev, .nxt {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow-icon {
+  height: 24px;
+  width: 24px;
+}
+.spotify{
+  margin-top: -20px;
+  height: 600px;
+}
+
+
+
+  .playlist-banner {
+      background-color: #000;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      font-family: 'Arial Black', sans-serif;
+    }
+
+    .playlist-banner .orange {
+      color: #f77f2c;
+    }
+
+    .playlist-banner h1 {
+      font-size: 2.8rem;
+      font-weight: 900;
+      line-height: 1.4;
+      margin-top: -85px;
+    }
+
+
+
+
+    .charity-section {
+  background-color: #fc9a44; /* bright orange */
+  color: white;
+}
+
+.charity-card {
+  background-color: white;
+  border-radius: 30px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
+}
+
+.charity-icon {
+  width: 50px;
+  margin-top: 50px;
+}
+
+.charity-title {
+  font-size: 6rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.charity-contact {
+  font-size: 1.5rem;
+  color: white;
+  text-align: right;
+}
+
+.orange-text {
+  color: #f7931a; 
+}
+
+.white-text {
+  color: white;
+}
+
+.partner-logo {
+  max-height: 150px; 
+  max-width: 150px;  
+  object-fit: contain;
+}
+
+
+.work{
+  font-size: 6em;
+  font-weight: 1000;
+}
+
+.phone-img {
+  height: 500;
+}
+
+
+
+
+
+
+.roadmap-step {
+  background-color: #fd9c49;
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 50%;
+  width: 260px;
+  height: 260px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 2; 
+  opacity: 0.9;
+  margin-right: -300px !important;
+}
+
+.roadmap-step p {
+  font-size: 0.95rem;
+  padding: 0 10px;
+  margin: 0;
+  font-weight: 100;
+}
+
+.roadmap-step .circle {
+  background-color: white;
+  color: #fd9c49;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step2{
+width:270px;
+height: 270px;
+}
+
+.afrik{
+  height: 700px;
+  margin-top:-45%;
+  z-index: -1;
+  left: 730px;
+  position: absolute;
+  
+}
+.road{
+  font-weight: bold;
+  font-size: 7em !important;
+}
+
+
+.step1 { top: -70px; left: 70px ; }
+.step2 { top: -80px; left: 290px ; }
+.step3 { top: 103px; left: 378px ; }
+.step4 { top: 130px; left: 160px ; }
+
+.phone-img{
+margin-top: 50px !important;
+}
+
+
+
+
+/* small screen  */
+
+  @media screen and (max-width: 700px) {
+    .logo{
+      margin-left: 12px;
+    }
+    .pay-text{
+      font-size:70px;
+    margin: 0; 
+    line-height: auto; 
+    font-weight: 1000;
+   font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  margin-left: 10px;
+  
+    }
+
+   .head-text {
+    transform: none !important;
+    position: relative !important;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: -38px;
+    border: 2px solid green !important; /* in case inline style is overridden */
+  }
+
+
+  .value-button:hover {
+    background-color: yellow !important;
+    color: red !important;
+    border-color: lime !important;
+  }
+    .chat{
+      display: block;
+    }
+    .head-1{
+      padding-top: 10%;
+      
+    }
+    .Digital{
+      font-weight: 700;
+      font-size: 13px
+    }
+   
+    .Digital{
+      margin-top: 8px;
+      margin-left:15px ;
+    }
+    .small-grp{
+      padding-top: 60px;
+      margin-left: -28px;
+    }
+    
+    .smart{
+      position: absolute;
+      transform: translate(-100%, -130%) !important;
+    }
+    .chat-right{
+      position: absolute;
+      right: -90px; 
+      top: 30px;
+      font-size: 10.5em;
+    }
+    .iphone-16{
+      z-index: 1;
+     position: relative;
+     transform: translate(-40%, -20%) !important;
+    }
+    .ip-16{
+    z-index: 2;
+      position: relative;
+      transform: translate(-5%, 0%) !important;
+    }
+    .small-txt{
+      margin-left: 50%;
+    }
+    .global{
+      margin-top: -40px;
+      
+    }
+
+    .about-title{
+      font-size: 3.5em;
+      margin-left: -30px;
+      max-width: 500px;
+    }
+
+    .small-globe{
+      position: relative;
+      transform: translate(40% , -530%);
+    }
+
+    .chart{
+      height: 1000px;
+      margin-left: 2px !important;
+    }
+
+    .core-text{
+      font-size: 1.5em;
+      margin-left: -30px !important;
+    }
+    
+    .abt-txt{
+      margin-top: -70px !important;
+      margin-left: 50px;
+    }
+    .value-button{
+      padding: 10px, 20px !important;
+    }
+
+    .value-button:hover{
+      background-color: #e0e0e0;
+      cursor: pointer;
+    }
+
+    .button-grid{
+      margin-left: -30px !important;
+    }
+
+  
+
+    .building{
+      text-align: left;
+      font-size: 16px;
+      margin-left: -30px;
+    }
+
+    .feature-heading{
+      font-size: 3rem !important;
+
+    }
+
+    .price{
+      font-size: 11px;
+    }
+    .add-to-cart-btn{
+      font-size: 10px;
+    }
+    .product-card{
+      width: 200px;
+      height: 350px;
+    }
+
+    .culture{
+      font-size: 60px;
+    }
+    .spotify{
+      height: 130px;
+    }
+
+      .playlist-banner h1 {
+        font-size: 1rem;
+        margin-top: -50px;
+      }
+      .charity-title{
+        font-size: 2rem;
+        text-align: center;
+
+      }
+      
+       .partner-logo {
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+      .edn-text {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .charity-block{
+      padding-top: 30px;
+   }
+   .work{
+    font-size: 30px;
+   }
+
+     .roadmap-step {
+    position: static;
+    margin: 1.5rem auto;
+  }
+
+  .right-side::before {
+    background-size: cover;
+    opacity: 0.05;
+  }
+
+}
+
+/* Mid screen */
+
+  @media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .logo{
+      margin-left: 10px;
+    }
+    .pay-text{
+      font-size: 70px;
+    }
+    .super{
+      margin-top: -15px;
+    }
+
+    .about-title{
+  font-size: 3.7em;
+  
+
+  }
+
+
+    .head-text {
+  
+   transform: translate(-10%, -500%) !important;
+}
+
+.head-1{
+  height: 68vh;
+}
+.phone-img{
+  height: 35%;
+}
+    .img-group{
+   transform: translate(22%, 5%);
+}
+
+.globe{
+  
+     position: relative;
+   transform: translate(70%, -340%) !important; 
+}
+
+.smart{
+  position: relative;
+   transform: translate(2%, 0%) !important;
+
+}
+.chat-right{
+  position: absolute;
+  right: -38px; 
+  top: -8px;
+  font-size: 5.3em;
+
+}
+.chart{
+  height: 300px !important;
+  margin-left: 3px;
+  margin-top: 100px !important;
+}
+.core-text{
+  font-size: 1.5em;
+}
+
+.building{
+  margin-top: 100px !important;
+  font-size: 20px;
+}
+
+.product-card{
+ 
+      height: 350px;  
+}
+
+.price{
+  font-size: 11px;
+}
+.add-to-cart-btn{
+  font-size: 10px;
+
+  display: inline;
+}
+
+.spotify{
+  height: 400px;
+}
+
+  .playlist-banner h1 {
+        font-size: 1.6rem;
+        margin-top: -80px;
+      }
+
+      .charity-title{
+        font-size: 3.8rem;
+      }
+
+      .charity-card{
+        height: 150px;
+      }
+
+      .work{
+        font-size: 3em;
+      }
+      
+
+  }
+
+  

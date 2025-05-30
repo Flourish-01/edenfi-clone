@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="eden.css">
+ 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+
+  <title>EDNFI CLONE</title>
+</head>
+
+<body class="bg-black">
+<nav class="navbar navbar-expand-lg navbar-light" id="nav">
+  <div class="container-fluid">
+    <a class="navbar-brand logo" href="#"><img src="/images/edenfi logo.png" height="30px" alt="denFi Logo"></a>
+
+    <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileNav"
+      aria-controls="mobileNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Offcanvas Sidebar -->
+    <div class="offcanvas offcanvas-end d-block d-lg-none" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body d-flex flex-column align-items-center">
+        <a class="nav-link active mb-2" id="main" href="#">Main</a>
+        <a class="nav-link others mb-2" href="#">About Us</a>
+        <a class="nav-link others mb-2" href="#">Store</a>
+        <a class="nav-link others mb-2" href="#">Culture</a>
+      </div>
+    </div>
+
+    <!-- Desktop nav -->
+    <div class="collapse navbar-collapse d-none d-lg-flex justify-content-end" id="navbarSupportedContent">
+      <form class="d-flex gap-4 me-5 fw-bold " role="search">
+        <a class="nav-link active" id="main" href="#">Main</a>
+        <a class="nav-link others" href="#about">About Us</a>
+        <a class="nav-link others" href="#">Store</a>
+        <a class="nav-link others" href="#">Culture</a>
+      </form>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+  <div class="">
+    <div class="row head-1">
+
+      <div class="img-group">
+        <img src="images/phone left imgae.png" class="d-none d-sm-block phone-img" height="47%" alt="...">
+        <img src="images/phone right imgae.png" class="d-none d-sm-block right phone-img" height="47%" alt="...">
+
+      </div>
+
+
+      <div class=" head-text text-light " style="border: 2px solid green;">
+        <p class="pay-text">PAY</p>
+        <p class="pay-text d-block d-sm-none " >CHAT</p>
+        <p class="pay-text d-none d-sm-block chat-right text-white">CHAT</p>
+        <p class="pay-text">INVEST</p>
+        <p class="Digital d-md-block d-none d-lg-none">Your Digital Presence.</p>
+        <p class="Digital d-none d-md-block d-lg-none super">Supercharged</p>
+
+        <p class="Digital d-block d-md-none d-lg-block">Your Digital Presence. Supercharged</p>
+
+      </div>
+
+                <!-- small screen -->
+      <div class="d-block d-lg-none d-md-none small-grp">
+          <img src="/images/phone right imgae.png" class="ip-16"  alt="" height="20%" srcset="">
+          <img src="/images/phone left imgae.png" class="iphone-16" alt="" height="20%" srcset="">
+      </div>
+      
+        <div class="d-block small-globe d-lg-none d-md-none">
+
+            <div class="left-indent small-txt text-light smart">
+          With <span class="higlight">Africa's 1st Smart<br></span>
+         <span class="higlight"> Wallet,</span> everything<br>
+          you need is just<br>
+          a click away
+        </div>
+
+          <img src="images/earth_no_black.png" class="global" alt="">
+        
+        </div>
+
+
+      <div class="container-fluid  g-boy">
+      
+        <div class="globe d-none d-sm-block ">
+        <img src="images/earth_no_black.png" alt="">
+
+        <div class="left-indent text-light smart">
+          With <span class="higlight">Africa's 1st Smart<br></span>
+         <span class="higlight"> Wallet,</span> everything<br>
+          you need is just<br>
+          a click away
+        </div>
+      </div>
+
+        
+
+      </div>
+
+    </div>
+  </div>
+
+  <div id="about" class="row pb-5 bg-black text-white ">
+  
+  <!-- TEXT FIRST ON SMALL, SECOND ON MD+ -->
+  <div class="col-12 col-md-6 d-flex order-1 order-md-2">
+    <div class="d-block abt-txt">
+      <h1 class="about-title">ABOUT <span class="us">US</span></h1>
+      <p class="core-text mt-4">EdenFi is united by core values</p>
+
+      <div class="button-grid container-fluid">
+        <button class="value-button">Trust</button>
+        <button class="value-button">Data driven</button>
+        <button class="value-button">Innovation</button>
+        <button class="value-button">Excellence</button>
+      </div>
+
+      <p class="building mt-5 pb-5">
+        We are building an ecosystem that makes it easy for Africans and the diaspora to connect through 
+        <span class="orng">remittances</span>, 
+        <span class="orng">investments</span> and 
+        <span class="orng">social events</span>
+      </p>
+    </div>    
+  </div>
+
+  <!-- IMAGE SECOND ON SMALL, FIRST ON MD+ -->
+  <div class="col-12 col-md-6 order-2 order-md-1">
+    <img src="images/chart.png" alt="" class="img-fluid chart">
+  </div>
+
+</div>
+
+
+</div>
+  </div>
+
+
+  <div class="container-fluid py-5 cardino">
+    <h2 class="feature-heading text-white feat">FEATURES</h2>
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="card feature-card border-0" >
+          <div class="card-body d-flex flex-column justify-content-between h-100">
+            <div>
+              <h5 class="card-title">Send money from London to Lagos in 10 seconds</h5>
+              <p class="card-text mt-2">Send money across borders in 10 seconds with EdenFi. Fast, secure, and hassle-free transfers at the click of a button.</p>
+            </div>
+            <div class="feature-icon text-end mt-3">
+              <img src="images/image.png" id="icn"  alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="card feature-card border-0">
+          <div class="card-body d-flex flex-column justify-content-between h-100">
+            <div>
+              <h5 class="card-title">Invest in property in Accra in 10 seconds</h5>
+              <p class="card-text mt-4">Invest in property in Accra in 10 seconds with EdenFi. Secure, seamless transactions that put prime real estate at your fingertips.</p>
+            </div>
+            <div class="feature-icon text-end mt-3">
+              <svg xmlns="http://www.w3.org/2000/svg" id="icn" viewBox="0 0 576 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M543.8 287.6c17 0 32-14 32-32.1c1-9-3-17-11-24L512 185l0-121c0-17.7-14.3-32-32-32l-32 0c-17.7 0-32 14.3-32 32l0 36.7L309.5 7c-6-5-14-7-21-7s-15 1-22 8L10 231.5c-7 7-10 15-10 24c0 18 14 32.1 32 32.1l32 0 0 69.7c-.1 .9-.1 1.8-.1 2.8l0 112c0 22.1 17.9 40 40 40l16 0c1.2 0 2.4-.1 3.6-.2c1.5 .1 3 .2 4.5 .2l31.9 0 24 0c22.1 0 40-17.9 40-40l0-24 0-64c0-17.7 14.3-32 32-32l64 0c17.7 0 32 14.3 32 32l0 64 0 24c0 22.1 17.9 40 40 40l24 0 32.5 0c1.4 0 2.8 0 4.2-.1c1.1 .1 2.2 .1 3.3 .1l16 0c22.1 0 40-17.9 40-40l0-16.2c.3-2.6 .5-5.3 .5-8.1l-.7-160.2 32 0z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="card feature-card border-0">
+          <div class="card-body d-flex flex-column justify-content-between h-100">
+            <div>
+              <h5 class="card-title">Chat with family in Nairobi</h5>
+              <p class="card-text mt-4">Chat with family instantly in Nairobi using EdenFi. Stay connected with seamless, real-time messaging, no matter the distance.</p>
+            </div>
+            <div class="feature-icon text-end mt-3">
+              <svg xmlns="http://www.w3.org/2000/svg" id="icn" viewBox="0 0 640 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M208 352c114.9 0 208-78.8 208-176S322.9 0 208 0S0 78.8 0 176c0 38.6 14.7 74.3 39.6 103.4c-3.5 9.4-8.7 17.7-14.2 24.7c-4.8 6.2-9.7 11-13.3 14.3c-1.8 1.6-3.3 2.9-4.3 3.7c-.5 .4-.9 .7-1.1 .8l-.2 .2s0 0 0 0s0 0 0 0C1 327.2-1.4 334.4 .8 340.9S9.1 352 16 352c21.8 0 43.8-5.6 62.1-12.5c9.2-3.5 17.8-7.4 25.2-11.4C134.1 343.3 169.8 352 208 352zM448 176c0 112.3-99.1 196.9-216.5 207C255.8 457.4 336.4 512 432 512c38.2 0 73.9-8.7 104.7-23.9c7.5 4 16 7.9 25.2 11.4c18.3 6.9 40.3 12.5 62.1 12.5c6.9 0 13.1-4.5 15.2-11.1c2.1-6.6-.2-13.8-5.8-17.9c0 0 0 0 0 0s0 0 0 0l-.2-.2c-.2-.2-.6-.4-1.1-.8c-1-.8-2.5-2-4.3-3.7c-3.6-3.3-8.5-8.1-13.3-14.3c-5.5-7-10.7-15.4-14.2-24.7c24.9-29 39.6-64.7 39.6-103.4c0-92.8-84.9-168.9-192.6-175.5c.4 5.1 .6 10.3 .6 15.5z"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <div class="d-flex justify-content-center align-items-center bg-black p-3">
+  <p class="text-white m-0 text-center  store">ST<span class="orng">ORE</span></p>
+</div>
+
+  </div>
+        <!-- image carousel -->
+   <div class="d-flex justify-content-between align-items-center bg-black p-3">
+     <button class="btn btn-light prev me-2" onclick="prevSlide()">
+    <img src="images/previous-svgrepo-com.svg" alt="Previous" class="arrow-icon">
+  </button>
+  
+    <div class="carousel-wrapper mx-3">
+      <div id="imageSlider" class="image-track">
+        <!-- Product 1 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/orng-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/bl-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/white-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/orng-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/bl-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="carousel-img-container">
+          <div class="product-card p-4">
+            <img src="images/white-shirt.png" alt="Black Mamba T-shirt">
+            <div class="product-title">Black Mamba</div>
+            <div class="product-description">
+              Stylish and simple design to support EdenFi project
+            </div>
+            <div class="price-cart">
+              <div class="price">£50.00</div>
+              <button class="add-to-cart-btn">Add to cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <button class="btn btn-light nxt ms-2" onclick="nextSlide()">
+    <img src="images/next-svgrepo-com.svg" alt="Next" class="arrow-icon">
+  </button>
+
+  </div>
+
+
+<div class="d-flex justify-content-center align-items-center bg-black p-3 py-5">
+  <button class=" px-4 more">Show me more</button>
+</div>
+
+ <div class="d-flex justify-content-center align-items-center bg-black p-3">
+  <p class="text-white m-0 text-center culture">CULTURE</span></p>
+</div>
+
+
+
+<div class="bg-black  justify-content-center align-items-center  d-flex">
+<img src="images/imageye___-_Untitled-design-1.png" class="spotify" alt="" srcset="">
+</div>
+
+<section class="playlist-banner">
+    <h1>
+      <span class="orange">MONTHLY PLAYLISTS</span> FEATURING<br>
+      DJ'S<br>
+      FROM AFRICA AND THE<br>
+      DIASPORA, <span class="orange">UNITED IN FINANCE</span><br>
+      <span class="orange">CULTURE AND SOUNDS</span>
+    </h1>
+  </section>
+
+
+  <section class="charity-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Card -->
+      <div class="col-12 col-md-6 mb-4 mb-md-0">
+        <div class="charity-card p-4 text-center justify-content-center ">
+          <p class="mb-4 edn-text">
+            <strong>EdenFI are dedicated</strong> to partnering with humanitarian projects to solve major crises in Africa such as 
+            <strong>electricity, infrastructure and water supply</strong>
+          </p>
+          <div class="text-end">
+            <img src="images/Hand.png" alt="Charity icon" class="charity-icon">
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Text -->
+      <div class="col-12 col-md-6 text-center text-md-start charity-block py-5" >
+        <h1 class="charity-title mb-3">CHARITY</h1>
+        <p class="charity-contact">
+          If you're interested in collaborating, please 
+          <span class="fw-bold text-dark">contact us</span>
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="partners-section bg-black text-white py-5 text-center">
+  <div class="container">
+    <h2 class="mb-5 fw-bold work">
+      <strong class="white-text">WE</span>
+      <strong class="orange-text">WORK</span>
+      <strong class="white-text">WITH</span>
+    </h2>
+
+    <div class="row justify-content-center align-items-center">
+      <!-- Partner Logos -->
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-1.png" alt="Partner 1" class="img-fluid partner-logo rounded-circle">
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-6.webp" alt="Partner 2" class="img-fluid partner-logo rounded-circle">
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-3.png" alt="Partner 3" class="img-fluid partner-logo">
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-4.png" alt="Partner 4" class="img-fluid partner-logo">
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-5.png" alt="Partner 5" class="img-fluid partner-logo">
+      </div>
+      <div class="col-6 col-md-2 mb-4">
+        <img src="images/part-2.png" alt="Partner 6" class="img-fluid partner-logo rounded-circle">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<div class="container-fluid py-5">
+    <div class="row align-items-center">
+      
+      <!-- Left Column -->
+      <div class="col-md-6 text-center text-md-start">
+        <h1 class="display-4 fw-bold text-uppercase road ">
+          <span style="color: #ffffff;">R</span><span style="color: #fd9c49;">O</span><span style="color: #ffffff;">ADMAP</span>
+        </h1>
+        <img src="images/slant.png" class="img-fluid mt-4 phone-img d-none d-md-block d-lg-block" alt="Phone Image" />
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6 position-relative mt-5 mt-md-0 right-side ">
+        <div class="roadmap-step step1">
+          <span class="circle">1</span>
+          <p>Artificial intelligence to tailor investment decisions and curate a personalised experience on the app</p>
+        </div>
+        <div class="roadmap-step step2">
+          <span class="circle">2</span>
+          <p>Real estate marketplace to trade and grow your property portfolio from as little as $10</p>
+        </div>
+        <div class="roadmap-step step3">
+          <span class="circle">3</span>
+          <p>High yield savings pots to beat inflation</p>
+        </div>
+        <div class="roadmap-step step4">
+          <span class="circle">4</span>
+          <p>Physical debit/virtual cards so you can pay anywhere you go</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="justify-content-end d-flex">
+      <img src="images/Africa.png" class="align-items-end afrik d-none d-md-block d-lg-block"  alt="" srcset="">
+
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="eden.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
