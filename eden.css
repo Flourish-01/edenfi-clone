@@ -489,9 +489,9 @@ height: 270px;
 }
 
 
-.step1 { top: -70px; left: 70px ; }
-.step2 { top: -80px; left: 290px ; }
-.step3 { top: 103px; left: 378px ; }
+.step1 { top: -70px; left: 70px !important; }
+.step2 { top: -80px; left: 290px !important; }
+.step3 { top: 103px; left: 378px !important; }
 .step4 { top: 130px; left: 160px ; }
 
 .phone-img{
