@@ -522,6 +522,88 @@ height: 800px;
   .circle-4 { top: 96%; left: 60%; }
 
 
+.foot{
+     background-color: #fd9c49;
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      position: relative;
+      
+}
+
+
+    .globe-bg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 0.1;
+      z-index: 0;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 3rem;
+      border-radius: 60px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      z-index: 2;
+      position: relative;
+    }
+
+
+  input.form-control:focus {
+  border-color: #fd9c49 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+
+    .join-button {
+      background-color: #fd9c49;
+      border: none;
+      border-radius: 30px;
+      padding: 0.6rem 2rem;
+      color: white;
+      font-weight: 500;
+      margin-top: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .join-button:hover {
+      background-color: #e4883e;
+    }
+
+    .form-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      position: relative;
+      z-index: 2;
+    }
+
+    .join-title {
+           font-size: 100px;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 2rem;
+    }
+
+    .globe-bg{
+      height: 800px !important;
+      width: 800px !important;
+      color: white;
+    }
+
+    .form-control:focus {
+  border-color: #fd9c49;
+  box-shadow: 0 0 0 0.2rem rgba(253, 156, 73, 0.25);
+  outline: none;
+}
+
 
 /* small screen  */
 
@@ -549,7 +631,9 @@ height: 800px;
     border: 2px solid green !important; /* in case inline style is overridden */
   }
 
-
+    .join-title {
+      font-size: 50px;
+    }
   .value-button:hover {
     background-color: yellow !important;
     color: red !important;
@@ -757,6 +841,11 @@ height: 800px;
     height: 300px;
     margin-left: -12px;
   }
+
+    .globe-bg{
+      height: 500px !important;
+      width: 400px !important;
+    }
 
 }
 
