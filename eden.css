@@ -2,6 +2,7 @@
 
 body{
   overflow-x: hidden ;
+  
 }
 #nav {
   background-color: #fd9c49 !important;
@@ -428,6 +429,97 @@ body{
 }
 
 
+  .roadmap-wrapper {
+  position: relative;
+  min-height: 600px;
+}
+
+/* Shared styling */
+.roadmap-circle {
+  background-color: #f7931e;
+  border-radius: 50%;
+  color: white;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+  opacity: 0.9;
+  font-weight: 600;
+}
+
+.circle-number {
+  background-color: white;
+  color: #f7931e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+/* Overlapping positions */
+.circle-1 {
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+  z-index: 2;
+}
+
+.circle-2 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 3;
+}
+
+.circle-3 {
+  top: 40%;
+  left: 80%;
+  transform: translate(-80%, -40%);
+  z-index: 2;
+}
+
+.circle-4 {
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: 1;
+}
+
+.afrika{
+height: 800px;
+  width: 700px;
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 0px !important;
+  z-index: -2;
+}
+.road{
+  font-size: 130px !important;
+  font-weight: bolder;
+  margin-left: 80px
+}
+
+
+.slnt{
+  height: 1000px;
+  position: absolute;
+  top: 66% !important;
+  margin-left: -23px; 
+}
+
+  .circle-1 { top: 60%; left: 30%; }
+  .circle-2 { top: 32%; left: 61%; }
+  .circle-3 { top: 64%; left: 90%; }
+  .circle-4 { top: 96%; left: 60%; }
 
 
 
@@ -619,6 +711,53 @@ body{
     opacity: 0.05;
   }
 
+   .roadmap-wrapper {
+    min-height: 500px;
+  }
+
+  .roadmap-circle {
+    width: 150px;
+    height: 150px;
+    padding: 20px 10px;
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .circle-number {
+    width: 30px;
+    height: 30px;
+    font-size: 1.rem;
+    line-height: 30px;
+  }
+
+  .circle-1 { top: 40%; left: 6% !important; }
+  .circle-2 { top: 14%; left: 51% !important; }
+  .circle-3 { top: 40%; left: 90% !important; }
+  .circle-4 { top: 68%; left: 50% !important; }
+
+
+
+.road{
+  font-size: 50px !important;
+  margin-left: -10px;
+}
+
+.afrika{
+
+  position: absolute;
+  margin-top: -550px;
+  margin-left: -185px !important;
+  height: 500px;
+  width: 400px;
+  z-index: -2;
+  }
+  
+  .slant{
+    margin-top: -220px;
+    height: 300px;
+    margin-left: -12px;
+  }
+
 }
 
 /* Mid screen */
@@ -723,6 +862,154 @@ body{
         font-size: 3em;
       }
       
+        .roadmap-wrapper {
+    min-height: 500px;
+  }
+
+  .roadmap-circle {
+    width: 150px;
+    height: 150px;
+    padding: 20px 10px;
+    font-weight: 600;
+  }
+
+  .circle-number {
+    width: 30px;
+    height: 30px;
+    font-size: 1.2rem;
+    line-height: 30px;
+  }
+
+  .pop{
+    margin-top: -900px !important;
+    margin-left: 250px !important;
+  }
+
+  .circle-2{
+    font-weight: 600;
+    margin-top: -100px !important;
+    margin-left: -20px;
+  }
+  .circle-1{
+    margin-left: -100px !important;
+  }
+  .circle-3{
+    margin-left: 50px !important;
+    margin-top: -40px !important;
+  }
+
+  .phone {
+  height: 300px;
+  margin-left: -440px;
+}
+
+.img_africa{
+  height: 700px;
+  width: 600px;
+  position: absolute;
+  margin-top: 150px;
+  
+}
+
+.road{
+  font-size: 100px !important;
+  padding-bottom: 70px;
+
+}
+
+.roadmap-circle {
+  background-color: #f7931e;
+  border-radius: 50%;
+  color: white;
+  width: 230px;
+  height: 230px;
+  position: absolute;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px 20px;
+  opacity: 0.9;
+}
+
+.circle-number {
+  background-color: white;
+  color: #f7931e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+
+/* Overlapping positions */
+.circle-1 {
+  top: 40%;
+  left: 10%;
+  transform: translate(-10%, -40%);
+  z-index: 2;
+}
+
+.circle-2 {
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  z-index: 3;
+}
+
+.circle-3 {
+  top: 40%;
+  left: 80%;
+  transform: translate(-80%, -40%);
+  z-index: 2;
+}
+
+.circle-4 {
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  z-index: 1;
+}
+
+.img_africa{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+.road{
+  font-size: 130px;
+  font-weight: bolder;
+  margin-left: 80px
+}
+
+.afrika{
+
+  position: absolute;
+  margin-top: -720px;
+  margin-left: -100px !important;
+  height: 600px !important;
+  width: 500px !important;
+  z-index: -2;
+  }
+
+.slnt{
+  height: 1000px;
+  position: absolute;
+  top: 66% !important;
+  margin-left: -23px; 
+}
+
+  .circle-1 { top: 60%; left: 30%; }
+  .circle-2 { top: 32%; left: 61%; }
+  .circle-3 { top: 64%; left: 90%; }
+  .circle-4 { top: 96%; left: 60%; }
 
   }
 
